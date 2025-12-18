@@ -1,7 +1,7 @@
 body
 {
 
-    background-color: rgb(58, 235, 235);
+    background-color: rgb(77, 77, 255);
 }
 h1,p
 {
@@ -26,7 +26,7 @@ h1,p
 }
 .nav-links a:hover
 {
-    color: rgb(240, 77, 77);
+    color: rgb(255, 0, 0);
 
 }
 nav a{
@@ -48,6 +48,7 @@ nav a{
 }
 .content p
 {
+    text-align: left;
     font-size: 1rem;
     line-height: 1.6;
     color: black;
@@ -63,6 +64,7 @@ nav a{
     border: none;
     cursor: pointer;
     justify-items: center;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) 0.3s;
 }
 .content button:hover
 {
@@ -75,4 +77,25 @@ p{
     padding: 10px;
     color: rgb(0, 0, 0);
     margin-bottom: auto;
+}
+body
+{
+    background-image: url('../image/djo.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top,center;
+    background-size: contain;
+
+}
+.sam
+p{
+    margin: 20px;
+    background-color: bisque;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: left;
+    color: black;
+
 }
