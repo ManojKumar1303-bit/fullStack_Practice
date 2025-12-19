@@ -1,11 +1,7 @@
-body
-{
-
-    background-color: rgb(77, 77, 255);
-}
-h1,p
+.head
 {
     text-align: center;
+    padding: 10px;
     color: black;
 }
 .navbar
@@ -80,7 +76,7 @@ p{
 }
 body
 {
-    background-image: url('../image/djo.jpg');
+    /* background-image: url('../image/djo.jpg'); */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: top,center;
@@ -98,4 +94,46 @@ p{
     text-align: left;
     color: black;
 
+}
+
+.one {
+    background-color: rgb(125, 255, 255);
+}
+.two
+{
+    background-color: rgb(39, 93, 255); 
+}
+.one button
+{
+    display: inline-flex;
+    margin-right: 20px;
+    font-size: 1rem;
+    background-color: rgb(0, 255, 30);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    justify-items: center;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) 0.3s;
+}
+.one button:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    gap: 30px;
+}
+.container1
+{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    gap: 30px;
+    grid-row-end: auto;
 }
